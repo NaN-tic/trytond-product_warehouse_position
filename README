@@ -1,7 +1,7 @@
-product_location_link
+product_warehouse_position
 =====================
 
-The product_location_link module of the Tryton application platform.
+The product_warehouse_position module of the Tryton application platform.
 
 Installing
 ----------

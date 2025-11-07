@@ -1,4 +1,4 @@
 <tree editable="1">
     <field name="warehouse"/>
-    <field name="location"/>
+    <field name="position"/>
 </tree>
