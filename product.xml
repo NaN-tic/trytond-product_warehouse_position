@@ -5,15 +5,15 @@
             <field name="inherit" ref="product.template_view_form"/>
             <field name="name">template_form</field>
         </record>
-        <record model="ir.ui.view" id="product_location_link_view_list">
-            <field name="model">product.location.link</field>
+        <record model="ir.ui.view" id="product_warehouse_position_view_list">
+            <field name="model">product.position.link</field>
             <field name="type">tree</field>
-            <field name="name">product_location_link_list</field>
+            <field name="name">product_warehouse_position_list</field>
         </record>
-        <record model="ir.ui.view" id="product_location_link_view_form">
-            <field name="model">product.location.link</field>
+        <record model="ir.ui.view" id="product_warehouse_position_view_form">
+            <field name="model">product.position.link</field>
             <field name="type">form</field>
-            <field name="name">product_location_link_form</field>
+            <field name="name">product_warehouse_position_form</field>
         </record>
     </data>
 </tryton>

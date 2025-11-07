@@ -1,6 +1,6 @@
 <form>
     <label name="warehouse"/>
     <field name="warehouse"/>
-    <label name="location"/>
-    <field name="location"/>
+    <label name="position"/>
+    <field name="position"/>
 </form>
