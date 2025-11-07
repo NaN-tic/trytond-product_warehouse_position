@@ -1,0 +1,7 @@
+<data>
+    <xpath expr="/form/notebook" position="inside">
+        <page name="location_links">
+            <field name="location_links" colspan="4"/>
+        </page>
+    </xpath>
+</data>

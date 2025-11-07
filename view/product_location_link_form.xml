@@ -1,0 +1,6 @@
+<form>
+    <label name="warehouse"/>
+    <field name="warehouse"/>
+    <label name="location"/>
+    <field name="location"/>
+</form>

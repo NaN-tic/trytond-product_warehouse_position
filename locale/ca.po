@@ -1,0 +1,34 @@
+#
+# SPDX-FileCopyrightText: 2025 juanjo <juanjo.garcia@nan-tic.com>
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: juanjo <juanjo.garcia@nan-tic.com>\n"
+"PO-Revision-Date: 2025-11-07 14:10+0100\n"
+"Project-Id-Version: \n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca_ES\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.08.2\n"
+
+msgctxt "field:product.location.link,location:"
+msgid "Location"
+msgstr "Ubicació"
+
+msgctxt "field:product.location.link,template:"
+msgid "Product Template"
+msgstr "Plantilla de producte"
+
+msgctxt "field:product.location.link,warehouse:"
+msgid "Warehouse"
+msgstr "Magatzem"
+
+msgctxt "field:product.template,location_links:"
+msgid "Locations"
+msgstr "Ubicacions"
+
+msgctxt "model:product.location.link,string:"
+msgid "Product Location Link"
+msgstr "Enllaç d'ubicació del producte"
