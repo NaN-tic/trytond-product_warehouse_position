@@ -6,6 +6,6 @@ from . import product
 
 def register():
     Pool.register(
-        product.ProductLocationLink,
+        product.ProductPosition,
         product.Template,
         module='product_warehouse_position', type_='model')

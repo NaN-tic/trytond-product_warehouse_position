@@ -3,9 +3,9 @@ from trytond.model import fields, ModelSQL, ModelView
 from trytond.transaction import Transaction
 
 
-class ProductPositionLink(ModelSQL, ModelView):
-    'Product Position Link'
-    __name__ = 'product.position.link'
+class ProductPosition(ModelSQL, ModelView):
+    'Product Position'
+    __name__ = 'product.position'
 
     template = fields.Many2One('product.template', 'Product Template',
         required=True)
@@ -21,5 +21,5 @@ class ProductPositionLink(ModelSQL, ModelView):
 class Template(metaclass=PoolMeta):
     __name__ = 'product.template'
 
-    positions = fields.One2Many('product.position.link', 'template',
+    positions = fields.One2Many('product.position', 'template',
         'Positions')
