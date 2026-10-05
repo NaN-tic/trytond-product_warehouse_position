@@ -8,7 +8,7 @@ class ProductPosition(ModelSQL, ModelView):
     __name__ = 'product.position'
 
     template = fields.Many2One('product.template', 'Product Template',
-        required=True)
+        required=True, ondelete='CASCADE')
     warehouse = fields.Many2One('stock.location', 'Warehouse', required=True,
         domain=[('type', '=', 'warehouse')])
     position = fields.Char('Position')
